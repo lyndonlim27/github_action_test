@@ -51,17 +51,6 @@ theme:
   favicon: assets/favicon.png
   icon:
     logo: logo
-# Plugins
-plugins:
-  - blog:
-      blog_toc: true
-  - tags
-  - search:
-      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
-  - mkdocs-jupyter
-  - swagger-ui-tag
-
-
 
 # Extensions
 markdown_extensions:
