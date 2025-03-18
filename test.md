@@ -5,6 +5,6 @@ toc
 
 ## Test <a id="test"></a>
 
-[invalid file](/docs/invalid.md)
+[invalid file](docs/invalid.md)
 
 
