@@ -1,0 +1,25 @@
+name: Validate Markdown
+
+on:
+  pull_request_target:
+    branches:
+      - main
+      - staging
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  linkChecker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+      - name: Link Checker
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          fail: false
