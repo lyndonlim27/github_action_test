@@ -2,10 +2,9 @@
 
 toc
 - [test](#test)
-- [testinvalid](#testinvalid)
 
 ## Test <a id="test"></a>
 
-asfsfasdasdasasd
+[invalid file](/docs/invalid.md)
 
 
